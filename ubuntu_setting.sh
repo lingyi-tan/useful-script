@@ -1,8 +1,7 @@
 #!/bin/bash
-git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 sudo apt-get update
 sudo apt-get install git
-git clone https://github.com/pyenv/pyenv.git ~/.pyenvless .bash
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
